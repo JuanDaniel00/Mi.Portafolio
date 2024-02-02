@@ -22,3 +22,9 @@ function stars() {
     }
 }
 stars();
+
+window.addEventListener('load', function(){
+    setTimeout(function() {
+        document.querySelector('.loader').classList.add('fade-out');
+    }, 2000);
+});
